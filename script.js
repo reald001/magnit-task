@@ -8,8 +8,9 @@ function setPrices(productPrices) {
     newProductPrices[product] =
       Math.round(
         Math.round(
-          productPrices[product] * factor) / 5) 
-            * 5;
+          productPrices[product] * factor
+        ) / 5
+      ) * 5;
   }
   return newProductPrices
 }
